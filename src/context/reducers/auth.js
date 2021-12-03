@@ -9,6 +9,7 @@ import {
   LOGOUT_USER,
 } from '../../constants/actionType';
 
+//Use for authentication
 const auth = (state, {type, payload}) => {
   switch (type) {
     case LOGIN_LOADING:
